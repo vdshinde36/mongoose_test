@@ -16,5 +16,5 @@ app.use(bodyParser.json());
 app.use('/api', routes);
 
 app.listen(config.PORT, () => {
-  console.log(`listening on port ${process.env.PORT}`);
+  console.log(`listening on port ${config.PORT}`);
 });
